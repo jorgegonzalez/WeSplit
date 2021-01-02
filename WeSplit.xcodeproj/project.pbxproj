@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFDECE8D258D938900567641 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDECE8C258D938900567641 /* WeSplitApp.swift */; };
 		CFDECE8F258D938900567641 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDECE8E258D938900567641 /* ContentView.swift */; };
 		CFDECE91258D938900567641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDECE90258D938900567641 /* Assets.xcassets */; };
 		CFDECE94258D938900567641 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDECE93258D938900567641 /* Preview Assets.xcassets */; };
+		CFE4F6D125A1219C00A13266 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4F6D025A1219C00A13266 /* WeSplitApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CFDECE89258D938900567641 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFDECE8C258D938900567641 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		CFDECE8E258D938900567641 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFDECE90258D938900567641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFDECE93258D938900567641 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFDECE95258D938900567641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE4F6D025A1219C00A13266 /* WeSplitApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		CFDECE8B258D938900567641 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				CFDECE8C258D938900567641 /* WeSplitApp.swift */,
+				CFE4F6D025A1219C00A13266 /* WeSplitApp.swift */,
 				CFDECE8E258D938900567641 /* ContentView.swift */,
 				CFDECE90258D938900567641 /* Assets.xcassets */,
 				CFDECE95258D938900567641 /* Info.plist */,
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE4F6D125A1219C00A13266 /* WeSplitApp.swift in Sources */,
 				CFDECE8F258D938900567641 /* ContentView.swift in Sources */,
-				CFDECE8D258D938900567641 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
